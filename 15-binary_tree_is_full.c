@@ -5,6 +5,7 @@
  * @tree: pointer to tree
  * Return:0 if not full else 1
  */
+ 
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 	int left = 0, right = 0;
